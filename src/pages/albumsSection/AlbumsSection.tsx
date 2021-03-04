@@ -31,8 +31,8 @@ function TodosSection() {
   return (
     <section>
       <Header />
-      <div className="text-main-page">
-        <h1>Tabela da API TO-DOS</h1>
+      <div className="text-page">
+        <h1>Tabela da API Albuns</h1>
       </div>
       <div style={{ height: 942, width: '100%' }}>
         <DataGrid

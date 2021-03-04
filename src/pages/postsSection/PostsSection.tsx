@@ -35,7 +35,7 @@ function PostsSection() {
   return (
     <section>
       <Header />
-      <div className="text-main-page">
+      <div className="text-page">
         <h1>Tabela da API Postagens</h1>
       </div>
       <div style={{ height: 942, width: '100%' }}>
