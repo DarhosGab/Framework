@@ -5,7 +5,7 @@ import Link from '../Links/Link';
 
 import './FirstSection.css';
 import logoReact from '../../img/react.svg';
-import logoCss from '../../img/css.svg';
+import logoJs from '../../img/js.svg';
 import logoType from '../../img/type.svg';
 
 function FirstSection() {
@@ -43,11 +43,11 @@ function FirstSection() {
             </div>
             <div className="other-cards">
               <img src={logoType} alt="Type" className="imags type" />
-              <p>Typescript</p>
+              <p>TypeScript</p>
             </div>
             <div className="other-cards">
-              <img src={logoCss} alt="CSS" className="imags css" />
-              <p>CSS</p>
+              <img src={logoJs} alt="JS" className="imags" />
+              <p>JavaScript</p>
             </div>
           </div>
         </div>
