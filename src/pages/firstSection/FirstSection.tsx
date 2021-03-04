@@ -15,10 +15,10 @@ function FirstSection() {
       <div className="styles-main-page">
         <div className="text-main-page">
           <h1>DESAFIO TÉCNICO DA FRAMEWORK</h1>
-          <p>
+          <h2>
             Meu nome é Darhos Gabriel tenho 18 anos, e esse é meu projeto para o
             desafio técnico da framework.
-          </p>
+          </h2>
           <p>
             Eu sempre amei mexer com qualquer coisa que estava conectado à
             tomada.
@@ -26,9 +26,9 @@ function FirstSection() {
           <p>
             E há pouco tempo comecei a gostar de desenvimento web, gostei
             bastante do Front-end, mas não me sinto confortável no meu estado
-            atual de conhecimento. Sinto que estou estagnado do jeito que estou
-            atualmente, por isso estou procurando um estágio para poder melhorar
-            como pessoa e como programador.
+            atual de conhecimento. Me sinto estagnado do jeito que estou
+            atualmente, por isso burco um estágio para melhorar como pessoa e
+            como programador.
           </p>
         </div>
         <div className="technologies">
