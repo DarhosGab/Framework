@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Header from '../Header/Header';
-import Link from '../Links/Link';
+import Header from '../../components/header/Header';
+import Link from '../../components/link/Link';
 
 import './FirstSection.css';
 import logoReact from '../../img/react.svg';

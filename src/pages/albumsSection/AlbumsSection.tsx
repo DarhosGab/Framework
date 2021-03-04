@@ -2,36 +2,32 @@ import React, { useEffect, useState } from 'react';
 
 import { DataGrid } from '@material-ui/data-grid';
 
-import Header from '../Header/Header';
-import Link from '../Links/Link';
+import Header from '../../components/header/Header';
+import Link from '../../components/link/Link';
 import api from '../../services/api';
 
-import './TodosSection.css';
-
-interface TodosTypes{
+interface AlbumsTypes {
   userId: number;
   id: number;
   title: string;
-  body: boolean;
 }
 
 function TodosSection() {
-  const [todosData, setTodosData] = useState<TodosTypes[]>([]);
+  const [albumsData, setAlbunsData] = useState<AlbumsTypes[]>([]);
   useEffect(() => {
-    async function getTodos() {
-      const response = await api.get('/todos');
+    async function getAlbums() {
+      const response = await api.get('/albums');
 
-      setTodosData(response.data);
+      setAlbunsData(response.data);
     }
-    getTodos();
+    getAlbums();
   }, []);
 
   const columns = [
     { field: 'id', headerName: 'ID', width: 70 },
-    { field: 'title', headerName: 'Title', width: 870 },
-    { field: 'completed', headerName: 'Complete', width: 250 },
+    { field: 'title', headerName: 'Title', width: 600 },
   ];
-  
+
   return (
     <section>
       <Header />
@@ -40,7 +36,7 @@ function TodosSection() {
       </div>
       <div style={{ height: 431, width: '100%' }}>
         <DataGrid
-          rows={todosData}
+          rows={albumsData}
           columns={columns}
           pageSize={5}
           className="table"

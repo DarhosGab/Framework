@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import FirstSection from './components/FirstSection/FirstSection';
-import PostsSection from './components/PostsSection/PostsSection';
-import AlbumsSection from './components/AlbumsSection/AlbumsSection';
-import TodosSection from './components/TodosSection/TodosSection';
+import FirstSection from './pages/firstSection/FirstSection';
+import PostsSection from './pages/postsSection/PostsSection';
+import AlbumsSection from './pages/albumsSection/AlbumsSection';
+import TodosSection from './pages/todosSection/TodosSection';
 
 function Routes() {
   return (

@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 
 import { DataGrid } from '@material-ui/data-grid';
 
-import Header from '../Header/Header';
-import Link from '../Links/Link';
+import Header from '../../components/header/Header';
+import Link from '../../components/link/Link';
 import api from '../../services/api';
 
 import './PostsSection.css';
