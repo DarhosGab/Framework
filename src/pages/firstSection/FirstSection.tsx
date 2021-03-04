@@ -27,7 +27,7 @@ function FirstSection() {
             E há pouco tempo comecei a gostar de desenvimento web, gostei
             bastante do Front-end, mas não me sinto confortável no meu estado
             atual de conhecimento. Me sinto estagnado do jeito que estou
-            atualmente, por isso burco um estágio para melhorar como pessoa e
+            atualmente, por isso busco um estágio para melhorar como pessoa e
             como programador.
           </p>
         </div>
