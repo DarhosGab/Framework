@@ -19,3 +19,9 @@ In order to use run this projetct do this:
 ```bash
   yarn start
 ```
+
+### Application deploy
+
+```bash
+https://framework-psi.vercel.app/albums
+```
