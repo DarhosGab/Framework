@@ -15,10 +15,10 @@ function FirstSection() {
       <div className="styles-main-page">
         <div className="text-main-page">
           <h1>DESAFIO TÉCNICO DA FRAMEWORK</h1>
-          <p>
+          <h2>
             Meu nome é Darhos Gabriel tenho 18 anos, e esse é meu projeto para o
             desafio técnico da framework.
-          </p>
+          </h2>
           <p>
             Eu sempre amei mexer com qualquer coisa que estava conectado à
             tomada.
