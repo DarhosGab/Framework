@@ -3,13 +3,13 @@ In order to use run this projetct do this:
 ### Clone this project
 
 ```bash
-  git clone https://github.com/DarhosGab/Framework.git
+  git clone https://github.com/DarhosGab/framework.git
 ```
 
 ### Install the dependencies
 
 ```bash
-  cd Framework
+  cd framework
   
   yarn install or npm install
 ```
