@@ -8,7 +8,7 @@ import api from '../../services/api';
 
 import './TodosSection.css';
 
-interface TodosTypes{
+interface TodosTypes {
   userId: number;
   id: number;
   title: string;
@@ -31,7 +31,7 @@ function TodosSection() {
     { field: 'title', headerName: 'Title', width: 870 },
     { field: 'completed', headerName: 'Complete', width: 250 },
   ];
-  
+
   return (
     <section>
       <Header />

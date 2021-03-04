@@ -34,19 +34,19 @@ function PostsSection() {
 
   return (
     <section>
-      <Header />      
-        <div className="text-main-page">
-          <h1>Tabela da API Postagens</h1>
-        </div>
-        <div style={{ height: 431, width: '100%' }}>
-          <DataGrid
-            rows={postData}
-            columns={columns}
-            pageSize={5}
-            className="table"
-          />
-        </div>
-        <Link/>
+      <Header />
+      <div className="text-main-page">
+        <h1>Tabela da API Postagens</h1>
+      </div>
+      <div style={{ height: 431, width: '100%' }}>
+        <DataGrid
+          rows={postData}
+          columns={columns}
+          pageSize={5}
+          className="table"
+        />
+      </div>
+      <Link />
     </section>
   );
 }

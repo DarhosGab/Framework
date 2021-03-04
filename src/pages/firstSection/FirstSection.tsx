@@ -4,9 +4,9 @@ import Header from '../../components/header/Header';
 import Link from '../../components/link/Link';
 
 import './FirstSection.css';
-import logoReact from '../../img/react.svg';
-import logoJs from '../../img/js.svg';
-import logoType from '../../img/type.svg';
+import logoReact from '../../assets/img/react.svg';
+import logoJs from '../../assets/img/js.svg';
+import logoType from '../../assets/img/type.svg';
 
 function FirstSection() {
   return (
@@ -27,8 +27,8 @@ function FirstSection() {
             E há pouco tempo comecei a gostar de desenvimento web, gostei
             bastante do Front-end, mas não me sinto confortável no meu estado
             atual de conhecimento. Sinto que estou estagnado do jeito que estou
-            atualmente, por isso estou procurando um estágio para poder
-            melhorar como pessoa e como programador.
+            atualmente, por isso estou procurando um estágio para poder melhorar
+            como pessoa e como programador.
           </p>
         </div>
         <div className="technologies">
