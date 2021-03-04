@@ -38,11 +38,11 @@ function PostsSection() {
       <div className="text-main-page">
         <h1>Tabela da API Postagens</h1>
       </div>
-      <div style={{ height: 431, width: '100%' }}>
+      <div style={{ height: 700, width: '100%' }}>
         <DataGrid
           rows={postData}
           columns={columns}
-          pageSize={5}
+          pageSize={10}
           className="table"
         />
       </div>
