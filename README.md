@@ -23,5 +23,5 @@ In order to use run this projetct do this:
 ### Application deploy
 
 ```bash
-https://framework-psi.vercel.app/albums
+https://framework-psi.vercel.app
 ```
