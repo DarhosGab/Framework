@@ -34,11 +34,11 @@ function TodosSection() {
       <div className="text-main-page">
         <h1>Tabela da API TO-DOS</h1>
       </div>
-      <div style={{ height: 700, width: '100%' }}>
+      <div style={{ height: 942, width: '100%' }}>
         <DataGrid
           rows={albumsData}
           columns={columns}
-          pageSize={10}
+          pageSize={15}
           className="table"
         />
       </div>

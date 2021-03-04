@@ -52,7 +52,7 @@
   padding: 5.5px;
 }
 
-@media(min-width: 768px){
+@media(min-width: 1128px){
   .styles-main-page{
     width: 100%;
   }
@@ -74,12 +74,12 @@
   }
 
   .imags{
-    width:  120px;
-    height: 120px;
+    width:  227px;
+    height: 227px;
   }
 }
 
-@media(min-width: 1280px){
+@media(min-width: 1480px){
   .text-main-page{
     width: 500px;
   }
