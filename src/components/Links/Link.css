@@ -1,0 +1,13 @@
+.site{
+  width: 35px;
+  height: 35px;
+}
+
+.site:first-child{
+  margin-right: 10px;
+}
+
+.references{
+  padding: 15px 0 10px 25px;
+
+}
